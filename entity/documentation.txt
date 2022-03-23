@@ -1,0 +1,13 @@
+USERS.GO
+-> = read
+<- = write
+->;<- = memperbolehkan read and write program
+json:"-" = password tidak boleh di tampilkan di json output
+gorm:"-" = tidak akan masuk di database
+json:"omiempty" = opsional
+
+
+https://gorm.io/docs/models.html
+
+An entity in Go is a set of data structures and functions. Use Cases: the software in
+ this layer contains application specific business rules. It encapsulates and implements all of the use cases of the system.
